@@ -13,4 +13,15 @@ Greek *palíndromos* recurring, equivalent to *pálin* again, back + *dromos* ru
 You can read more about that [here](http://norvig.com/palindrome.html). Happy debating! 
 
 ## Problem Domain
-Determine if a given word as a string is a Palindrome. Output the input string with a return of `True` or `False` for the method.
+Create a method `palindrome?()` that takes in a string as an argument and determines whether that string is a palindrome. Output the input string with a return of `True` or `False` for the method.
+
+### Example
+
+* `palindrome?("racecar")` gives a boolean output of **true** because "racecar" is a palindrome.
+* `palindrome?("flatiron")` gives a boolean output of **false** because "flatiron" is not a palindrome.
+
+What would the output for the following strings be?
+* `palindrome?("noon")`
+* `palindrome?("five")`
+* `palindrome?("radar")`
+* `palindrome?("learnlovecode")`
